@@ -34,7 +34,7 @@ The profile goes into every prompt as JSON. A fat-loss vegetarian and a muscle-g
 
 Click the upload box, pick a photo, then hit *Analyze Meal*. The image is converted to base64 in the browser and sent to `gemini-2.5-flash` with your profile and a prompt asking for JSON *only*: name, calories, protein, carbs, fats, portion size.
 
-📸 **[Screenshot: an uploaded meal photo next to its calorie / protein / carbs / fats breakdown]**
+<img width="1226" height="534" alt="Screenshot 2026-10-08 at 9 48 45 PM" src="https://github.com/user-attachments/assets/921d5d5c-5b62-449b-9333-1540b4cdd1a8" />
 
 The result is added to your log straight away, and the summary panel updates.
 
@@ -44,7 +44,8 @@ One honest note: these are estimates. A photo can't see how much ghee went into 
 
 This sits on the right side of the page. It shows calories eaten against your daily target, with a progress bar, then your totals for protein, carbs and fats, and every meal you've logged so far with its photo.
 
-📸 **[Screenshot: the "Today's Summary" panel with 2–3 meals logged]**
+<img width="470" height="294" alt="Screenshot 2026-10-08 at 9 49 52 PM" src="https://github.com/user-attachments/assets/ab4fe946-38a4-41e6-8794-5f96dbfedba7" />
+
 
 ### The weekly planner
 
@@ -52,17 +53,20 @@ One button, two plans. Both requests go out at the same time (`Promise.all`) so 
 
 The **meal plan** comes back as a 7-day table with breakfast, lunch and dinner, plus the daily calorie target the plan is aiming for.
 
-📸 **[Screenshot: the weekly meal plan table]**
+<img width="733" height="733" alt="Screenshot 2026-10-08 at 9 50 25 PM" src="https://github.com/user-attachments/assets/da068085-10f9-44ba-bff3-a4441d7ac755" />
+
 
 The **workout plan** is a card for each day, with cardio and resistance exercises, sets and durations, and an estimate of calories burned. Each exercise has a checkbox so you can tick it off once it's done. That's a small thing, but it turned out to be the most satisfying part of the UI.
 
-📸 **[Screenshot: the weekly workout plan, with a couple of exercises ticked off]**
+<img width="727" height="721" alt="Screenshot 2026-10-08 at 9 51 11 PM" src="https://github.com/user-attachments/assets/6bca522f-9467-429a-93d6-a9dbf1519e50" />
+
 
 ### Your profile
 
 You can edit your age, height, weight, gender, activity level, goal (fat loss / maintenance / muscle gain), diet preference and allergies. Every AI call uses whatever is saved here.
 
-📸 **[Screenshot: the profile edit form]**
+<img width="1117" height="346" alt="Screenshot 2026-10-08 at 9 51 50 PM" src="https://github.com/user-attachments/assets/3f1cb69d-2816-4b01-a9b0-32a8f8b29247" />
+
 
 ## What went wrong along the way
 
