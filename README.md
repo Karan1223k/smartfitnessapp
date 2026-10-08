@@ -4,7 +4,8 @@ An AI fitness app built on React and Google Gemini. You take a photo of your foo
 
 That's the pitch. The part I actually learned from, though, wasn't getting the AI to answer. It was everything around the answer: what to do when the AI sends back messy output, runs out of quota, or doesn't respond at all. And, in one case, what happens when your API key ends up on GitHub.
 
-📸 **[Screenshot: the full app — profile at the top, meal tracker, daily summary on the right]**
+<img width="1328" height="685" alt="Screenshot 2026-10-08 at 9 52 59 PM" src="https://github.com/user-attachments/assets/de69aec8-5277-4073-9f25-fab015e979f0" />
+
 
 ## What's in here
 
