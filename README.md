@@ -4,7 +4,7 @@ A web app I made that uses Google's Gemini AI to help with the annoying parts of
 
 I mainly built this to learn how to use an AI API inside a proper frontend. Getting Gemini to reply was honestly the easy part. Handling everything that goes wrong around it took a lot longer.
 
-<img width="1328" height="685" alt="Screenshot 2026-10-08 at 9 52 59 PM" src="https://github.com/user-attachments/assets/de69aec8-5277-4073-9f25-fab015e979f0" />
+<img width="1328" height="685" alt="Screenshot 2026-10-08 at 9 52 59 PM" src="screenshots/home.png" />
 
 ## Features
 
@@ -23,7 +23,7 @@ There's no backend or database. Everything runs in the browser.
 
 Click the upload box, pick a photo and press **Analyze Meal**. The photo gets sent to Gemini (`gemini-2.5-flash`) along with your profile, and it sends back the numbers. The meal then gets added to your log for the day.
 
-<img width="1226" height="534" alt="Screenshot 2026-10-08 at 9 48 45 PM" src="https://github.com/user-attachments/assets/921d5d5c-5b62-449b-9333-1540b4cdd1a8" />
+<img width="1226" height="534" alt="Screenshot 2026-10-08 at 9 48 45 PM" src="screenshots/meal-tracking.png" />
 
 Keep in mind these are estimates. It can't see how much oil or ghee went into the food, so don't take them too seriously.
 
@@ -31,25 +31,25 @@ Keep in mind these are estimates. It can't see how much oil or ghee went into th
 
 This is on the right side. It shows calories eaten vs your target, your protein, carbs and fats for the day, and the list of meals you've added.
 
-<img width="470" height="294" alt="Screenshot 2026-10-08 at 9 49 52 PM" src="https://github.com/user-attachments/assets/ab4fe946-38a4-41e6-8794-5f96dbfedba7" />
+<img width="470" height="294" alt="Screenshot 2026-10-08 at 9 49 52 PM" src="screenshots/daily-summary.png" />
 
 ### Weekly meal plan
 
 Press **Generate My Weekly Plans** and give it a few seconds. The meal plan and the workout plan are requested at the same time, so it doesn't take twice as long.
 
-<img width="733" height="733" alt="Screenshot 2026-10-08 at 9 50 25 PM" src="https://github.com/user-attachments/assets/da068085-10f9-44ba-bff3-a4441d7ac755" />
+<img width="733" height="733" alt="Screenshot 2026-10-08 at 9 50 25 PM" src="screenshots/meal-plan.png" />
 
 ### Weekly workout plan
 
 One card for each day. It's a mix of cardio and strength exercises, with a rough number for calories burned. You can tick off exercises as you finish them. Small feature, but I ended up liking it more than I expected.
 
-<img width="727" height="721" alt="Screenshot 2026-10-08 at 9 51 11 PM" src="https://github.com/user-attachments/assets/6bca522f-9467-429a-93d6-a9dbf1519e50" />
+<img width="727" height="721" alt="Screenshot 2026-10-08 at 9 51 11 PM" src="screenshots/workout-plan.png" />
 
 ### Profile
 
 Age, height, weight, gender, activity level, goal (fat loss, maintenance or muscle gain), veg or non-veg, and allergies. Change these before generating plans. The defaults are just placeholders.
 
-<img width="1117" height="346" alt="Screenshot 2026-10-08 at 9 51 50 PM" src="https://github.com/user-attachments/assets/3f1cb69d-2816-4b01-a9b0-32a8f8b29247" />
+<img width="1117" height="346" alt="Screenshot 2026-10-08 at 9 51 50 PM" src="screenshots/profile.png" />
 
 ## Tech stack
 
@@ -71,8 +71,8 @@ If you're used to Python, you don't need a virtual environment here. `npm instal
 ### Installation
 
 ```bash
-git clone https://github.com/Karan1223k/smartfitnessapp.git
-cd smartfitnessapp
+git clone https://github.com/Karan1223k/SmartFitnessApp.git
+cd SmartFitnessApp
 npm install
 ```
 
